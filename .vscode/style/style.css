@@ -1,0 +1,125 @@
+.saturate { filter: saturate(3); }
+.grayscale { filter: grayscale(100%); }
+.contrast { filter: contrast(160%); }
+.brightness { filter: brightness(0.25); }
+.blur { filter: blur(3px); }
+.invert { filter: invert(100%); }
+.sepia { filter: sepia(100%); }
+.huerotate { filter: hue-rotate(180deg); }
+.rss.opacity { filter: opacity(50%); }
+* {
+  margin:0 auto;
+  box-sizing: border-box;
+  padding: 0;
+}
+.main {
+  display: block;
+  text-align: center;
+  margin: 2% 2%;
+}
+.wrapper {
+  padding:25px;
+  width: 360px;
+  text-align: center;
+  vertical-align: middle;
+  display: inline-block;
+} 
+.image_box {
+  display: flex;
+  width: 320px;
+  height: 320px;
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+}     
+.image1 {
+  margin:0;
+  background-position: center;
+  background-color: rgb(26, 218, 218);
+  background-size: 60%;
+  background-image:url('../image/rocket.svg');
+  background-repeat: no-repeat;
+  width: 300px;
+  height:300px;
+  border-radius: 3%;
+  vertical-align: middle;
+  align-content: center;
+  justify-content: center;
+}
+.image2 {
+  margin:0;
+  background-position: center;
+  background-color: rgb(59, 141, 217);
+  background-size: 60%;
+  background-image:url('../image/mind.svg');
+  background-repeat: no-repeat;
+  width: 300px;
+  height:300px;
+  border-radius: 3%;
+  vertical-align: middle;
+  align-content: center;
+  justify-content: center;
+}
+.image3 {
+  margin:0;
+  background-position: center;
+  background-color: rgb(246, 63, 3);
+  background-size: 60%;
+  background-image:url('../image/users.svg');
+  background-repeat: no-repeat;
+  width: 300px;
+  height:300px;
+  border-radius: 3%;
+  vertical-align: middle;
+  align-content: center;
+  justify-content: center;
+}
+.image4 {
+  margin:0;
+  background-position: center;
+  background-color: rgb(148, 148, 148);
+  background-size: 60%;
+  background-image:url('../image/arrow.svg');
+  background-repeat: no-repeat;
+  width: 300px;
+  height:300px;
+  border-radius: 3%;
+  vertical-align: middle;
+  align-content: center;
+  justify-content: center;
+}
+.imagecircle {
+  float:left;
+  margin: 0;
+  background-position: center;
+  background-color: white;
+  padding: 10px;
+  width: 60px;
+  height: 60px;
+  border: 2px solid;
+  border-radius: 50%;
+  border-color: aqua;
+  border-width: 5px;
+  margin-top:-25px;
+  margin-left:-25px; 
+  font-size: 15px;
+  text-align: center;
+  vertical-align: middle;
+  align-content: center;
+  justify-content: center;
+}
+.imagecircle h1 {
+  font-size: 25px;
+  text-align: center;
+  vertical-align: middle;
+  color: aqua;
+}
+.pavadinimai {
+  padding: 15px;
+  color:rgb(246, 63, 3);
+  text-align: center;
+  text-transform: capitalize;
+  width: 280px; 
+}
+
+
